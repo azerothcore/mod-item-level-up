@@ -1,5 +1,5 @@
 
-
+#include "Chat.h"
 #include "Configuration/Config.h"
 #include "Player.h"
 #include "Creature.h"
@@ -9,7 +9,7 @@
 #include "GossipDef.h"
 
 uint32 Increase_Level;
-uint32 MaxItemLevel = 70;
+uint32 MaxItemLevel = 80;
 bool LevelItemEnable = true;
 bool LevelItemAnnounce = true;
 
@@ -36,7 +36,7 @@ public:
     {
         LevelItemEnable = sConfigMgr->GetBoolDefault("LevelItem.Enable", true);
         LevelItemAnnounce = sConfigMgr->GetBoolDefault("LevelItem.Announce", true);
-        MaxItemLevel = sConfigMgr->GetIntDefault("LevelItem.MaxItemLevel", 70);
+        MaxItemLevel = sConfigMgr->GetIntDefault("LevelItem.MaxItemLevel", 80);
     }
 };
 
