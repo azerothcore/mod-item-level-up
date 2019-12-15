@@ -21,5 +21,7 @@ AzerothCore v1.0.1+
 
 ###3) Re-run cmake and launch a clean build of AzerothCore
 
+### CREDITS
 
-
+-  [AzerothCore](https://github.com/AzerothCore/azerothcore-wotlk/graphs/contributors)
+-  StygianTheBest | [GitHub](https://rebrand.ly/stygiangithub) | [Website](https://rebrand.ly/stygianthebest))
