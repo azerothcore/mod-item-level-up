@@ -74,7 +74,7 @@ public:
 
         if (p->getLevel() >= MaxItemLevel)
         {
-            ChatHandler(p->GetSession()).PSendSysMessage("You're already at level 70!");
+            ChatHandler(p->GetSession()).PSendSysMessage("You're already at level %u!", MaxItemLevel);
             return false;
         }
 
