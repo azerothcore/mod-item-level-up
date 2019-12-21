@@ -4,7 +4,6 @@
 # CUSTOM
 #
 
-    DB_WORLD_CUSTOM_PATHS+=(
-        $MOD_LEVEL_ITEM_ROOT"/sql/world/"
-        )
-        
+DB_WORLD_CUSTOM_PATHS+=(
+    $MOD_LEVEL_ITEM_ROOT"/sql/world/"
+)
