@@ -1,6 +1,6 @@
 # ![logo](https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/images/logo-github.png) AzerothCore
-# ItemLevel
--- Latest build status with azerothcore: [![Build Status](https://travis-ci.org/azerothcore/mod-item-level-up.svg?branch=master)](https://travis-ci.org/azerothcore/mod-item-level-up)
+## ItemLevel
+- Latest build status with azerothcore: [![Build Status](https://github.com/azerothcore/mod-item-level-up/workflows/core-build/badge.svg?branch=master&event=push)](https://github.com/azerothcore/mod-item-level-up)
 
 #Module for Azerothcore
 Current features:
