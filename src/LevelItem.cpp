@@ -19,18 +19,6 @@ class mod_levelitem_Conf : public WorldScript
 public:
     mod_levelitem_Conf() : WorldScript("mod_levelitem_Conf") { }
 
-    // Initialize Configuration
-    void OnBeforeConfigLoad(bool reload) override
-    {
-        if (!reload) {
-            std::string conf_path = _CONF_DIR;
-            std::string cfg_file = conf_path + "/mod_levelitem.conf";
-            std::string cfg_def_file = cfg_file + ".dist";
-            sConfigMgr->LoadMore(cfg_def_file.c_str());
-            sConfigMgr->LoadMore(cfg_file.c_str());
-        }
-    }
-
     // Load Configuration Settings
     void SetInitialWorldSettings()
     {
