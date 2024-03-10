@@ -1,4 +1,3 @@
-
 #include "Chat.h"
 #include "Configuration/Config.h"
 #include "Player.h"
@@ -75,8 +74,6 @@ public:
         return true;
     }
 };
-
-
 
 void AddLevelItemScripts()
 {

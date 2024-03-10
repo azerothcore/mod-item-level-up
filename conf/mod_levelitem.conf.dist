@@ -14,6 +14,6 @@ LevelItem.Announce = 1
 
 #    Set item's max level
 #        Description: Max level the Item can be used up to
-#        Default:     Enabled = 80                     
+#        Default:     Enabled = 80
 
 LevelItem.MaxItemLevel = 80
