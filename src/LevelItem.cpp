@@ -59,13 +59,13 @@ public:
             return false;
         }
 
-        if (p->getLevel() >= MaxItemLevel)
+        if (p->GetLevel() >= MaxItemLevel)
         {
             ChatHandler(p->GetSession()).PSendSysMessage("You're already at level %u!", MaxItemLevel);
             return false;
         }
 
-        uint8 newLevel = p->getLevel() + 1;
+        uint8 newLevel = p->GetLevel() + 1;
         p->GiveLevel(newLevel);
         p->SetUInt32Value(PLAYER_XP, 0);
         p->DestroyItemCount(i->GetEntry(), 1, true);
